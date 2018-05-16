@@ -1,2 +1,2 @@
-scoreboard objectives add magnet_mode trigger
-tellraw @a ["",{"text":"Magnet Mode Available! Use "},{"text":"/trigger magnet_mode","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger magnet_mode"}},{"text":" to enable or disable"}]
+scoreboard objectives add magnet trigger
+tellraw @a ["",{"text":"Magnet Mode Available! Use "},{"text":"/trigger magnet","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger magnet"}},{"text":" to enable or disable"}]
